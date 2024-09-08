@@ -1,0 +1,68 @@
+.sectionContainer {
+    height: 500px;
+    background-color: var(--secondary-color);
+    position: relative;
+}
+.mainImg{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    height: 500px;
+    object-position: top center;
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    mix-blend-mode: overlay;
+}
+.icon {
+    mask: url('../../assets/Services/meetFounder.png') no-repeat center;
+    mask-size: contain;
+        margin: auto;
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary-color);
+}
+
+.bottomSec {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.bottomSec h3 {
+    font-size:48px ;
+    font-weight: 700;
+    text-align: center;
+}
+.bottomSec span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.bottomSec span a {
+    display: inline-flex;
+}
+.bottomSec span, .bottomSec span a {
+    font-size: 20px;
+    color: var(--primary-color);
+    
+}
+.bottomSec span a span {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: var(--light-color);
+    padding: 1rem 1.4rem;
+    margin: 2rem auto;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+
+}

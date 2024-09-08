@@ -1,0 +1,47 @@
+.servicesTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.servicesTitle i {
+    font-size: 80px;
+    color: var(--secondary-color);
+}
+
+.servicesTitle h2 {
+    font-size: 39px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.mask {
+    background-color: var(--secondary-color);
+    mask: url('../../assets/Services/shape.png') no-repeat center;
+    mask-size: contain;
+    width: 70px;
+    height: 70px;
+}
+
+.smaller {
+    font-size: 16px !important;
+    font-weight: 500;
+}
+
+
+
+.header {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.header h1 {
+    max-width: 1000px;
+    display: block;
+    text-align: center;
+    font-size: 39px;
+    font-weight: 700;
+}

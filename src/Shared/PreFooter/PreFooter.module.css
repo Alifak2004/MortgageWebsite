@@ -1,0 +1,72 @@
+.container {
+    max-width: 100%;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    margin: auto;
+}
+
+
+
+.left h4 {
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.btn {
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    width: 100%;
+    margin: auto;
+    display: block;
+    border: none;
+    padding: .8rem 0;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.right {
+    background-color: var(--primary-color-d);
+    border-radius: 20px;
+    padding: 2rem;
+}
+.right h4 {
+    font-size: 20px;
+    color: var(--light-color);
+    margin-bottom: 1rem;
+
+}
+
+.time {
+    margin-bottom: 1rem;
+}
+.right .time p{
+    color: var(--secondary-color);
+    display: inline;
+}
+
+.points {
+    width: 50%;
+    display: inline-block;
+    border-bottom: 1px dotted #fff;
+    margin: 0 .4rem;
+}
+
+.right .time {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+@media (max-width:768px) {
+    .container {
+        padding: 0 2rem;
+    }
+    .right {
+        margin-top: 1.8rem;
+        padding-right: 2rem !important;
+    }
+}

@@ -1,0 +1,14 @@
+.cusContainer {
+    background-color: var(--primary-color);
+    color: #fff !important;
+}
+
+.cusContainer  {
+    display: flex;
+    min-height: 65px;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: right;
+    padding-right: 15%;
+    flex-wrap: wrap;
+}

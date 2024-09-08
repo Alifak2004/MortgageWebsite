@@ -1,0 +1,189 @@
+.s1leftContainer {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.s1Img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: .3s;
+    transition-delay: .2s;
+}
+
+.s1LeftBtn {
+    border: none;
+    outline: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: .3s;
+    width: 170px;
+    height: 170px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.s1LeftBtn:hover {
+    background-color: var(--light-color);
+}
+
+.s1LeftBtn i {
+    font-size: 3rem !important;
+    margin-bottom: 1rem;
+}
+
+.s1rightTop {
+
+}
+
+.s1rightTop h3 {
+    font-weight: 700;
+    font-size: 39px;
+}
+
+.s1rightTop p {
+    font-size: 20px;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+
+.carousel :global(.accordion-button:not(.collapsed)) {
+    color: var(--secondary-color) !important;
+    font-weight: 700;
+    background-color:transparent !important;
+    border-color:transparent !important;
+    outline-color: transparent !important;
+}
+
+.s1Img[data-resizei="true"] {
+    transform: scale(1.2);
+}
+
+
+
+.s2container {
+    max-width: 70vw; 
+    margin: auto;   
+    color: var(--light-color);
+    padding: 3rem 0;
+}
+
+.s2Top {
+    text-align: center;
+}
+.s2Top h2 {
+    font-size: 39px;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.s2Top span {
+    color: var(--secondary-color);
+    font-weight: 600;
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 16px;
+}
+
+.topIcon {
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+
+.s2Card {
+    background-color: var(--primary-color-d);
+    padding: 1rem 0;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3rem;
+}
+.s2Card i {
+    font-size: 1.6rem;
+    margin-bottom: 1.4rem;
+    color: var(--secondary-color);
+}
+.s2Card h5 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+
+.BottomSection {
+    background-color: var(--secondary-color);
+    border-radius:20px ;
+    height: 350px;
+    margin-top: 3rem;
+}
+
+.bRightSection {
+    padding: 4rem 3rem;
+}
+
+.s2Image {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    object-fit: cover;
+}
+
+.block {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: var(--primary-color);
+    margin-right: 1rem; 
+
+}
+.s3Top {
+    margin-bottom: 2rem;
+}
+.s3Top h4 {
+    color: var(--primary-color);
+    font-size: 31px;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+.s3Top span {
+    display: inline-block;
+    color: var(--primary-color);
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.Input {
+    width: 100%;
+    border: none;
+    padding: .8rem;
+    border-radius: 6px;
+    font-weight: 600;
+    outline: none;
+    font-size: .9rem;
+}
+
+.submitBtn {
+    background-color: var(--primary-color);
+    width: 100%;
+    color: var(--light-color);
+    padding: .7rem;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+
+@media (max-width: 768px) {
+    .s2container {
+        max-width: 90vw;
+    }
+}

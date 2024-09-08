@@ -1,0 +1,15 @@
+.img img{
+    border-bottom: 5px solid var(--secondary-color);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.img:first-child img{
+    border-right: 5px solid var(--secondary-color);
+}
+
+.img:last-child img{
+    border-left: 5px solid var(--secondary-color);
+}

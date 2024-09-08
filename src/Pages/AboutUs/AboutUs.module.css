@@ -1,0 +1,47 @@
+.s1leftSide p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Image1 {
+    height: 280px;
+    border-bottom: 9px solid var(--secondary-color);
+    border-right: 9px solid var(--secondary-color);
+    border-radius: 20px;
+    margin-bottom:2rem ;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Image2 {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 9px solid var(--secondary-color);
+    border-left: 9px solid var(--secondary-color);
+    border-radius: 20px;
+}
+.s2Right {
+    color: var(--light-color);
+}
+.s2Right span {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    display: block;
+    font-weight: 700;
+}
+
+.s2Right h4 {
+    font-size: 39px;
+    margin-bottom: 1.5rem;
+}
+
+.icon {
+    background-color: var(--secondary-color);
+    mask: url('../../assets/Services/meetFounder.png') no-repeat center;
+    mask-size: contain;
+    display: inline-block;
+    margin-right: .6rem;
+    width: 20px;
+    height: 20px;
+}

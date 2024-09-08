@@ -1,0 +1,67 @@
+.h1 {
+    max-width: 70vw;
+    margin: auto;
+}
+.h1 h1 {
+    font-weight: 700;
+    /* font-size: 48px; */
+    font-size: clamp(40px, 8vw, 70px);
+    padding: 1rem 0;
+}
+
+
+.h2 {
+    position: relative;
+    max-height: 400px;
+    width: 100%;
+}
+
+.h2 img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.h2 div {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.titleHeader {
+width: 100%;
+    text-align: center;
+}
+.h2 h4 {
+    font-size: clamp(30px, 8vw, 70px);
+    font-weight: 700;
+   
+    color: var(--light-color);
+}
+
+.h2 .overlay {
+    background-color: var(--primary-color);
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+}
+
+.icon {
+    color: var(--light-color);
+    font-size: 3.5rem;
+    display: block;
+    position: relative;
+    top: 100px;
+    color: var(--secondary-color);
+}
+
+.icon:first-child {
+    top: 113px;
+}
+
+@media (max-width:768px) {
+    .icon {
+        font-size: 2.8rem;
+    }
+}

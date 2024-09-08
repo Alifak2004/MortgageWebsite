@@ -1,0 +1,14 @@
+.wrapper {
+}
+.MainText {
+    /* font-size: 70px !important; */
+    font-size: clamp(40px, 8vw, 70px) !important;
+    position: relative;
+    bottom: 250px;
+}
+
+.SubText {
+    position: relative;
+    bottom: 204px;
+    font-size: 20px;
+}

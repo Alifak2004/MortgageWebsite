@@ -1,0 +1,145 @@
+:root {
+    --primary-color: #2A2C38;
+    --primary-color-d: #22232D; /*-d means darker*/
+    --secondary-color: #FF9021;
+    --light-color: #FFFFFF;
+    --main-color: #F5F5F5;
+    --dark-color: #22232D;
+}
+
+body {
+   background-color: #F5F5F5;
+}
+
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        border: 8px solid rgb(0 0 0 / 4%);
+        padding: 15px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        border: 8px solid rgb(0 0 0 / 4%);
+        padding: 15px;
+}
+ .carousel-inner {
+    font-family: "Calistoga", serif;
+ }
+
+ p,h1,h2,h3,span {
+font-family: "Cairo", sans-serif;
+ }
+
+
+
+ .carousel-item img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+ }
+
+ .dropdown {
+    padding: 0;
+ }
+ .dropdown .dropdown-menu {
+    display: none;
+ }
+ .dropdown-menu a {
+    margin: 0 !important;
+ }
+
+ .dropdown:hover .dropdown-menu{
+    display: block;
+ }
+
+
+ .accordion-button::after {
+   content: '\f067';
+      /* Unicode for FontAwesome plus icon */
+      font-family: 'Font Awesome 5 Free';
+      /* Adjust based on your FontAwesome version */
+      font-weight: 900;
+      /* FontAwesome uses font-weight to differentiate styles */
+      font-size: 1.5rem;
+      /* Adjust size as needed */
+      color: #000;
+      /* Adjust color as needed */
+      display: inline-block;
+      margin-right: 8px;
+      /* Adjust spacing as needed */
+      background-image:none;
+ }
+
+ .accordion-button:not(.collapsed)::after {
+    content: '\f068';
+    background-image: none;
+    /* FontAwesome icon code for up arrow */
+ }
+
+ .container-70-90 {
+   max-width: 70vw;
+ }
+
+ .container-70-100 {
+    max-width: 70%;
+    /* Default max-width for larger screens */
+    margin: auto;
+ }
+
+
+@keyframes bounceDownUp {
+
+   0%,
+   100% {
+      transform: translateY(0);
+      opacity: 0.7;
+      /* Starting and ending position */
+   }
+
+   50% {
+      transform: translateY(20px);
+      opacity: 1;
+      /* Move down by 20px */
+   }
+}
+
+.bounce-down-up {
+   animation: bounceDownUp 1.3s infinite;
+   /* Animation duration and infinite loop */
+}
+
+.icon-delay {
+   animation-delay: 0.05s;
+   /* Delay for the second icon */
+}
+
+
+.nav-link.active, .dropdown-item.active {
+   background-color: var(--secondary-color) !important;
+}
+ 
+ @media (max-width: 768px) {
+   .gy-14 {
+      --bs-gutter-y: 14vh;
+   }
+
+   .container-70-90 {
+      max-width: 90vw;
+   }
+   
+   
+   .weirdMargin {
+      margin-top: 70vh !important;
+   }
+    /* Adjust the max-width to 90% on smaller screens */
+    .container-70-100 {
+       max-width: 100%;
+    }
+   
+      .row>* {
+         padding-right: 0 !important;
+      padding: 1rem !important;
+      }
+ }

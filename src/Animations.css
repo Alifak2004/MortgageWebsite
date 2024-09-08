@@ -1,0 +1,151 @@
+/* FADE IN OUT */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.fade-out {
+    opacity: 1;
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+
+/* SWIPE LTR */
+.swipe-left-to-right {
+    transform: translateX(-100%);
+    opacity: 0;
+    animation: swipeLeftToRight 1s forwards;
+}
+
+@keyframes swipeLeftToRight {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* SWIPE RTL */
+.swipe-right-to-left {
+    transform: translateX(100%);
+    opacity: 0;
+    animation: swipeRightToLeft 1s forwards;
+}
+
+@keyframes swipeRightToLeft {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* BOTTOM TO TOP FADE IN */
+.bottom-to-top-fade-in {
+    transform: translateY(100%);
+    opacity: 0;
+    animation: bottomToTopFadeIn 1s forwards;
+}
+
+.bottom-to-top-fade-out {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+@keyframes bottomToTopFadeIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* TOP TO BOTTOM FADE IN */
+.top-to-bottom-fade-in {
+    transform: translateY(-100%);
+    opacity: 0;
+    animation: topToBottomFadeIn 1s forwards;
+}
+
+@keyframes topToBottomFadeIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* SCALE UP */
+.scale-up {
+    transform: scale(0);
+    opacity: 0;
+    animation: scaleUp 1s forwards;
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* SCALE DOWN */
+.scale-down {
+    transform: scale(1.5);
+    opacity: 0;
+    animation: scaleDown 1s forwards;
+}
+
+@keyframes scaleDown {
+    from {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

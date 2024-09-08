@@ -1,0 +1,115 @@
+.container {
+    background-color: var(--light-color);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 50px 40px 40px 40px;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 700;
+    color:var(--primary-color);
+    text-decoration: none;
+    margin-top: .7rem;
+}
+
+
+
+.v2header {
+    border-bottom: 1px solid var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.icon {
+    font-size: 40px;
+    color: var(--secondary-color);
+}
+.v2rSide {
+    margin: 0 1rem;
+}
+.v2text {
+    margin-top: 1.5rem;
+    font-size: 17px;
+    font-weight: 350;
+    line-height: 32px;
+}
+
+.v2container {
+    background-color: var(--light-color);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 50px 40px 40px 40px;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
+
+
+.v3container {
+    background-color: var(--light-color);
+    border-radius: 20px;
+    /* width: 290px;
+    height: 200px; */
+    width: 37%;
+    height: 25%;
+    text-align: center;
+    border-bottom: 7px solid var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.v3title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.v3smallText {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.v4Img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    mix-blend-mode: multiply;
+}
+
+.v4container {
+    border-bottom: 5px solid var(--secondary-color);
+    border-radius: 10px;
+    max-width: 210px;
+    margin: auto;
+}
+.v4title {
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+    font-size: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+.v4smallText {
+    text-align: center;
+    display: block;
+    padding: .5rem 1rem 1.2rem 1rem;
+}
+
+
+@media (max-width:768px) {
+    .v3container {
+        width: 100%;
+        left: 0 !important;
+        bottom: 0 !important;
+        margin: 1rem 0 1rem 10px;
+    }
+}

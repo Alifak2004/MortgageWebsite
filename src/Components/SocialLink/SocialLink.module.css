@@ -1,0 +1,10 @@
+.container {
+    background-color: var(--secondary-color);
+    display: block;
+    border-radius: 2px;
+    padding: 5px 9px !important; 
+}
+.container a {
+    color: #000;
+    font-size: 1.3rem;
+}

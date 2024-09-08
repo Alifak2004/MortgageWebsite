@@ -1,0 +1,13 @@
+.container{
+    background-color: var(--primary-color);
+    padding: 2rem 0;
+    border-top: 10px solid var(--primary-color-d);
+    color: var(--light-color);
+}
+
+
+@media (max-width:760px) {
+    .container>div:first-child {
+        justify-content: center;
+    }
+}
